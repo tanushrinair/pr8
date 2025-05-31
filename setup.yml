@@ -1,6 +1,6 @@
 - name: Basic Server Setup
   hosts: local
-  become: true  # Optional: if your tasks need root access
+  become: no  # Optional: if your tasks need root access
   tasks:
     - name: Example task
       debug:
